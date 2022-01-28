@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    background-color: black;
+    height: 80px;
+    width: 70%;
+    justify-content: space-between;
+}
+/*/ ^ black navigation bar
+/*/
+.nav-title {
+    color: white;
+    /* display: inline-block; */
+}
+/*/ ^
+/*/
+.nav-links  {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start
+}
+/*/^
+/*/
+.active {
+    font-weight: bold;
+    color: white;
+
+}
+/*/^
+/*/
+.btn {
+background-color: turquoise;
+border: black solid 2px;
+color: white;
+}
+/*/^
+/*/
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
